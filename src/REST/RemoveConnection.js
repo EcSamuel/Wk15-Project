@@ -27,7 +27,7 @@ import React from 'react';
 import axios from 'axios';
 
 function RemoveConnection({ id, onRemove }) {
-  const APIurl = `https://662075d03bf790e070afcd1f.mockapi.io/Rule0Test/`;
+  const APIurl = `https://662075d03bf790e070afcd1f.mockapi.io/Rule0Test/Connections`;
 
   const handleRemove = async () => {
     try {
@@ -46,3 +46,4 @@ function RemoveConnection({ id, onRemove }) {
 }
 
 export default RemoveConnection;
+// PRESENTLY DOES NOT CAUSE A REFRESH OR RERENDER
